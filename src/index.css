@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: rgb(19, 9, 9);
+  color: white;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  /* position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
