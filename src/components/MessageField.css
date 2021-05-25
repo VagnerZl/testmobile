@@ -1,5 +1,28 @@
-ul{
-    word-wrap: break-word;
-    width: 320px;
-    padding: 20px 10 px 20px 10px;
+ul {
+  word-wrap: break-word;
+  width: 320px;
+  padding: 20px 10 px 20px 10px;
+}
+
+ul li {
+  padding-top: 40px;
+}
+
+.typing {
+  font-size: 1em;
+  line-height: 1.5em;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) left
+    no-repeat;
+  background-size: 0% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: change 1s linear forwards;
+}
+
+@keyframes change {
+  100% {
+    background-size: 100% 100%;
+  }
 }

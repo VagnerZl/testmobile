@@ -1,12 +1,13 @@
-.form{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
+.form {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
 }
-.form-text{
-    width: 250px;
-    border-radius: 5px;
+.form-text {
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
 }
-.form-button{
-    border-radius: 5px;
+.form-button {
+  border-radius: 5px;
 }
